@@ -1,5 +1,5 @@
 subroutine bomb(fila, columna, cbombas, minas)
-    implicit none 
+    implicit none ! comienza el programa 
  
     real ::  u(2500), v(2500) ! vectores generadores de numeros aleatorios  que se convertiran en fila y columna 
     integer :: i, j, k, l,  contu, contv, bombas ! i,j,k,l subíndices, contu contv contadores de los vectores
